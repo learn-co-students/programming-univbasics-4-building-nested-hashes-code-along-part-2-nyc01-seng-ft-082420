@@ -3,7 +3,7 @@ require_relative '../lib/updating_nested_hashes.rb'
 
 describe "update_status" do
 	it "returns a hash where the hero and heroine's status is set to dead" do
-    expect(update_status[:montague][:hero][:status]).to eq("dead")
+    expect(update_status[:capulet][:heroine][:status]).to eq("dead")
     expect(update_status[:capulet][:heroine][:status]).to eq("dead")
   end
 end
